@@ -1,0 +1,7 @@
+- mongo
+- show dbs
+- use myUberApp
+- show collections
+- mongoimport --db myUberApp --collection policeData --drop --file ./uberConcept.json
+- db.policeData.find().pretty()
+- db.policeData.find({userId:“01”}).pretty()
